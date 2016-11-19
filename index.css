@@ -1,16 +1,22 @@
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Lato', Geneva, sans-serif;
   font-weight: 300;
   margin: 0;
   background-color:rgba(190,197,221,0.7);
 }
 
-#title {
+.header {
   position: fixed;
+  top: 50vh;
+  bottom: 50vh;
   width: 100%;
-  background-color:rgba(256,256,256,0.3);
+  text-align: center;
+  background-color:rgba(0,0,0,0.4);
   padding: 16px;
   color: white; 
+}
+
+.title {
   font-size: 28px;
 }
 
