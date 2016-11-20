@@ -30,6 +30,10 @@ body {
   box-sizing: border-box;
 }
 
+.selected {
+  font-weight: 400;
+}
+
 .menu-section {
   display: inline-block;
   width: 49%;
