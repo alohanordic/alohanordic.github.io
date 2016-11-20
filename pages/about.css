@@ -12,12 +12,27 @@
 
 img {
   max-width: 100%;
-  position: absolute;
-  z-index: 1;
+}
+
+.img-portrait {
+  display: none;
+}
+
+.img-landscape {
+  display: block;
+}
+
+@media (orientation: landscape) {
+  .img-portrait {
+    display: block;
+  }
+  .img-landscape {
+    display: none;
+  }
 }
 
 .content-container {
-  position: absolute;
+  position: fix;
   top: 43px;
   bottom: 0;
   left: 0;
@@ -26,8 +41,7 @@ img {
 }
 
 .content {
-  width: 50%:
-  box-sizing: border-box;
+  width: 50%;
   padding: 12px;
   color: #fff;
 }
