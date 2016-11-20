@@ -2,6 +2,10 @@ body {
   background-color: rgba(0,42,103,1);
 }
 
+.fixed-content {
+  padding: 0;
+}
+
 .content {
   padding-top: 40px;
 }
