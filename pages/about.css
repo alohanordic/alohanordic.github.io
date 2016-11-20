@@ -35,27 +35,6 @@ body {
   }
 }
 
-img {
-  max-width: 100%;
-}
-
-.img-portrait {
-  display: block;
-}
-
-.img-landscape {
-  display: none;
-}
-
-@media (orientation: landscape) {
-  .img-portrait {
-    display: none;
-  }
-  .img-landscape {
-    display: block;
-  }
-}
-
 .content-container {
   position: fixed;
   top: 43px;
