@@ -1,9 +1,6 @@
-body {
-  background-color: rgba(72,122,203,1);
-}
-
 .header {
   z-index: 1;
+  background-color: rgba(256,256,256,0.6);
 }
 
 .menu {
@@ -20,6 +17,7 @@ img {
 .text {
   text-align: start;
   padding: 8px 12px;
+  color: #000;
 }
 
 ul {
