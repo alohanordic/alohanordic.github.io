@@ -1,0 +1,22 @@
+.race-link {
+  width: 49%;
+  display: inline-block;
+  padding: 4px;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.bio-link img {
+  width: 100%;
+}
+
+.bio-link div {
+  position: absolute;
+  bottom: 6px;
+  left: 4px;
+  right: 4px;
+  padding: 4px;
+  color: #fff;
+  background-color: rgba(0,0,0,0.5);
+  font-size: 24px;
+}
