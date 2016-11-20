@@ -27,6 +27,10 @@
   }
 }
 
+.text > div:not(:last-of-type) {
+  padding-bottom: 6px;
+}
+
 .bold {
   font-weight: 400;
   font-color: #000;
@@ -49,5 +53,5 @@ ul {
 .white-out {
   width: 100%;
   height: 100%;
-  background-color: rgba(256,256,256,0.5);
+  background-color: rgba(256,256,256,0.7);
 }
