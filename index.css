@@ -51,6 +51,7 @@ body {
   color: #fff;
   text-decoration: none;
   width: 24%
+  box-sizing: border-box;
 }
 
 .hero-image {
