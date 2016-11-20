@@ -33,6 +33,12 @@ img {
   }
 }
 
+@media (min-width: 700px) {
+  .text {
+    line-height: 1.5em;
+  }
+}
+
 .title {
   font-size: 16px;
   font-weight: 400;
@@ -45,4 +51,27 @@ img {
 .quote {
   font-size: 12px;
   font-style: italic;
+}
+
+@media (min-width: 900px) {
+    img {
+      width: 33%;
+    }
+    
+    .text {
+      padding-right: 33%;
+    }
+    
+    .title {
+	  font-size: 20px;
+	}
+
+	.subtitle {
+	  font-size: 18px;
+	}
+
+	.quote {
+	  font-size: 14px;
+	  font-style: italic;
+	}
 }
