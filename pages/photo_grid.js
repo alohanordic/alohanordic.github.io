@@ -4,7 +4,7 @@
  */
 function onPhotoClick(event) {
   document.getElementById('overlay').style.display = 'block';
-  var parent = event.target;
+  var parent = event.currentTarget;
   var description = parent.getElementsByClassName('description')[0];
   this.currentDescription = description;
   description.style.display = 'block';
