@@ -1,6 +1,6 @@
 .header {
   z-index: 2;
-  background-color: rgba(0,0,0,0.7);
+  background-color: #444;
   height: auto;
   padding: 8px 12px;
 }
@@ -9,7 +9,6 @@
   text-align: start;
   padding: 40px 12px 8px 12px;
   color: #000;
-  font-weight: 400;
   font-size: 13px;
   position: relative;
   z-index: 1;
@@ -19,6 +18,18 @@
   .text {
     padding-top: 58px;
   }
+}
+
+@media (min-width: 900px) {
+  .text {
+    margin: 50px;
+    line-height: 1.6em;
+  }
+}
+
+.bold {
+  font-weight: 400;
+  font-color: #000;
 }
 
 ul {
