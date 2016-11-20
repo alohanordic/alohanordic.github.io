@@ -1,13 +1,32 @@
+body {
+  background-color: rgba(0,42,103,1);
+}
+
 .content {
   padding-top: 40px;
 }
 
 #menu > a {
-  width: 12%;
+  width: 11%;
 }
 
 #menu {
   padding: 12px;
+}
+
+.menu-section {
+  display: inline-block;
+  width: 50%;
+}
+
+.menu-item {
+  width: 25%;
+}
+
+@media (max-width: 500px) {
+  .menu-section {
+    width: 100%;
+  }
 }
 
 img {
