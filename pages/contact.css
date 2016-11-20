@@ -17,3 +17,8 @@ img {
   bottom: 0;
   max-width: 100%;
 }
+
+.text {
+  text-align: start;
+  padding: 8px;
+}
