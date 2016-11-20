@@ -1,3 +1,7 @@
+body {
+  background-color: rgb(80,177,214);
+}
+
 img {
   max-width: 50%;
   position: fixed;
@@ -5,15 +9,10 @@ img {
   right: 0;
 }
 
-@media (min-width: 500px) {
-  img {
-    max-width: 100%;
-  }
-}
-
 .text {
   padding: 40px 12px 8px 12px;
   font-size: 13px;
+  word-break: break-word;
 }
 
 @media (max-width: 500px) {
@@ -22,7 +21,21 @@ img {
   }
 }
 
+@media (min-width: 900px) {
+  .text {
+    margin: 50px;
+    line-height: 1.6em;
+  }
+}
+
+@media (orientation:landscape and max-width: 900) {
+  .text {
+    width: 50%;
+  }
+}
+
 .link {
   text-decoration: none;
   font-weight: 400;
+  color: #000;
 }
