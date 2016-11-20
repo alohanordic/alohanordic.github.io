@@ -4,7 +4,6 @@ body {
 
 .header {
   z-index: 1;
-  background-color: rgba(0,0,0,0.2);
 }
 
 .menu {
@@ -20,5 +19,9 @@ img {
 
 .text {
   text-align: start;
-  padding: 8px;
+  padding: 8px 12px;
+}
+
+ul {
+  margin-left: -20px;
 }
