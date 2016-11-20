@@ -1,6 +1,6 @@
 .header {
   z-index: 2;
-  background-color: rgba(256,256,256,0.7);
+  background-color: rgba(0,0,0,0.7);
   height: auto;
   padding: 8px 12px;
 }
@@ -16,7 +16,9 @@
 }
 
 @media (max-width: 500px) {
-  padding-top: 58px;
+  .text {
+    padding-top: 58px;
+  }
 }
 
 ul {
