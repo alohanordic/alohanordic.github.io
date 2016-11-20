@@ -3,7 +3,16 @@ body {
 }
 
 #menu {
-  padding: 8px 12px 12px 12px;
+  padding: 12px;
+  background-color: rgba(0,0,0,0.2);
+}
+
+.content-container {
+  position: fixed;
+  top: 43px;
+  bottom: 0;
+  left: 0;
+  right: 0;
   background-color: rgba(0,0,0,0.2);
 }
 

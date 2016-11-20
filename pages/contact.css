@@ -1,0 +1,18 @@
+body {
+  background-color: rgb(45,81,159);
+}
+
+.header {
+  z-index: 1;
+  background-color: rgb(0,0,0,0.2);
+}
+
+.menu {
+  background-color: rgb(0,0,0,0.2);
+}
+
+img {
+  position: fixed;
+  bottom: 0;
+  max-width: 100%;
+}

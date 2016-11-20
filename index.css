@@ -5,6 +5,11 @@ body {
   background-color:rgba(190,197,221,0.7);
 }
 
+.fixed-content {
+  padding: 0;
+  height: 100%;
+}
+
 .header {
   position: fixed;
   top: 0;
