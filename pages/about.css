@@ -2,7 +2,7 @@ body {
   background-color: rgba(0,42,103,1);
 }
 
-#menu {
+.menu {
   padding: 12px;
   background-color: rgba(0,0,0,0.2);
 }

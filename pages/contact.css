@@ -1,14 +1,15 @@
 body {
-  background-color: rgb(45,81,159);
+  background-color: rgba(72,122,203,1);
 }
 
 .header {
   z-index: 1;
-  background-color: rgb(0,0,0,0.2);
+  background-color: rgba(0,0,0,0.2);
 }
 
 .menu {
-  background-color: rgb(0,0,0,0.2);
+  padding: 12px;
+  background-color: rgba(0,0,0,0.2);
 }
 
 img {
