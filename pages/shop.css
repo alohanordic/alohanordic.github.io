@@ -1,0 +1,22 @@
+img {
+  max-width: 50%:
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
+
+@media (min-width: 500px) {
+  img {
+    max-width: 100%;
+  }
+}
+
+.text {
+  padding: 40px 12px 8px 12px;
+}
+
+@media (max-width: 500px) {
+  .text {
+    padding-top: 58px;
+  }
+}
