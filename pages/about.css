@@ -2,30 +2,8 @@ body {
   background-color: rgba(0,42,103,1);
 }
 
-.fixed-content {
-  padding: 0;
-  height: 100%;
-}
-
-.content {
-  padding-top: 40px;
-}
-
-#menu > a {
-  width: 11%;
-}
-
 #menu {
-  padding: 12px;
-  background-color: rgba(0,0,0,0.2);
-}
-
-.content-container {
-  position: fixed;
-  top: 43px;
-  bottom: 0;
-  left: 0;
-  right: 0;
+  padding: 8px 12px 12px 12px;
   background-color: rgba(0,0,0,0.2);
 }
 
