@@ -6,9 +6,10 @@ body {
 }
 
 .header {
-  top: 44vh;
+  top: 40;
   text-align: center;
-  padding: 16px;
+  padding: 8px 12px 12px 12px;
+  box-sizing: border-box;
   position: fixed;
   width: 100%;
   background-color:rgba(0,0,0,0.3);
@@ -20,8 +21,7 @@ body {
 }
 
 #menu {
-  top: 0;
-  padding: 12px;
+  padding-bottom: 8px;
   box-sizing: border-box;
 }
 
