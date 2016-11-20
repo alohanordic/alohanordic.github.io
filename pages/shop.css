@@ -2,6 +2,10 @@ body {
   background-color: rgb(80,177,214);
 }
 
+.menu {
+  z-index: 1;
+}
+
 img {
   max-width: 50%;
   position: fixed;
@@ -21,14 +25,14 @@ img {
   }
 }
 
-@media (min-width: 900px) {
+@media (min-width: 900px), (orientation: portrait) {
   .text {
     margin: 50px;
     line-height: 1.6em;
   }
 }
 
-@media (max-width: 900px) and (orientation:landscape) {
+@media (max-width: 900px) and (orientation: landscape) {
   .text {
     width: 50%;
   }
