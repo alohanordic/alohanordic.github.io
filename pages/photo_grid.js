@@ -8,7 +8,7 @@ function onPhotoClick(event) {
   var description = parent.getElementsByClassName('description')[0];
   this.currentDescription = description;
   description.style.display = 'block';
-},
+}
 
 /**
  * Handles a click on the grayed out overlay by closing the popup.
