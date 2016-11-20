@@ -47,11 +47,9 @@ body {
 
 .menu-item {
   display: inline-block;
-  width: 13%;
   color: #fff;
   text-decoration: none;
   width: 24%;
-  box-sizing: border-box;
 }
 
 .hero-image {
