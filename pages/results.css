@@ -1,0 +1,15 @@
+.photo-container {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .photo-container {
+    width: 49%;
+  }
+}
+
+@media (min-width: 1000px) {
+  .photo-container {
+    width: 33%;
+  }
+}
