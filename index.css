@@ -6,11 +6,11 @@ body {
 }
 
 .header {
-  top: 40;
+  position: fixed;
+  top: 0;
   text-align: center;
   padding: 8px 12px 12px 12px;
   box-sizing: border-box;
-  position: fixed;
   width: 100%;
   background-color:rgba(0,0,0,0.3);
   color: white;
