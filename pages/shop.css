@@ -29,6 +29,13 @@ img {
   .text {
     margin: 50px;
     line-height: 1.6em;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 900px) and (orientation: landscape) {
+  img {
+    max-width: 33%;
   }
 }
 
