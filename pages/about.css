@@ -20,21 +20,6 @@ body {
   background-color: rgba(0,0,0,0.2);
 }
 
-.menu-section {
-  display: inline-block;
-  width: 49%;
-}
-
-.menu-item {
-  width: 24%;
-}
-
-@media (max-width: 500px) {
-  .menu-section {
-    width: 100%;
-  }
-}
-
 .content-container {
   position: fixed;
   top: 43px;

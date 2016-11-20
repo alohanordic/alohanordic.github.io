@@ -25,11 +25,23 @@ body {
   box-sizing: border-box;
 }
 
+.menu-section {
+  display: inline-block;
+  width: 49%;
+}
+
+@media (max-width: 500px) {
+  .menu-section {
+    width: 100%;
+  }
+}
+
 .menu-item {
   display: inline-block;
   width: 13%;
   color: #fff;
   text-decoration: none;
+  width: 24%
 }
 
 .hero-image {
