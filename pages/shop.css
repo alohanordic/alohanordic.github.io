@@ -28,7 +28,7 @@ img {
   }
 }
 
-@media (max-width: 900) and (orientation:landscape) {
+@media (max-width: 900px) and (orientation:landscape) {
   .text {
     width: 50%;
   }
