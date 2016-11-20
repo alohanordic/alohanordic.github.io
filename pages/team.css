@@ -1,5 +1,6 @@
 .content {
   padding: 40px 12px 12px 12px;
+  text-align: center;
 }
 
 @media (max-width: 500px) {
