@@ -6,11 +6,18 @@ function onPhotoClick(event) {
   document.getElementById('overlay').classList.toggle('hidden', false);
   var parent = event.currentTarget;
   var id = parent.id;
-  var text = descriptions[id];
-  if (!text) {
-    text = results[id];
+  var bio = bios[id];
+  if (bio) {
+    document.getElementById('description').textContent = bio;
+  } else {
+    var times = results[id];
+    var el = document.getElementById('description');
+    el.appendChild(document.createTextNode(times[0]);
+    for (var i = 1; i < times.length; i++) {
+      el.appendChild(document.createElement('br');
+      el.appendChild(document.createTextNode(times[i]);
+    }
   }
-  document.getElementById('description').textContent = text;
 }
 
 /**
@@ -20,9 +27,13 @@ function onPhotoClick(event) {
 function onOverlayClick(event) {
   event.preventDefault();
   document.getElementById('overlay').classList.toggle('hidden', true);
+  var descriptionEl = document.getElementById('description');
+  while (descriptionEl.firstChild) {
+    descriptionEl.removeChild(descriptionEl.firstChild);
+  }
 }
 
-var descriptions = {
+var bios = {
   'allison': 'When Allison decides whether to sign up for a ski race, her priorities, in order, are (1) what food will be served at the finish line (2) whether the race has a cute rhyming or punny name (3) how good the race tshirt is (4 – optional) the distance and elevation of the course. A native of the east coast, Allison was on her high school cross country ski team, so we’re looking forward to the years of teenage wisdom she’ll share with Aloha Nordic.',
   'carl': 'Carl was sucked into the vortex of #AlohaNordic through the wit, charm, and general gregariousness of Tom and Miles. Thanks to them, he will spend the next 8 years desperately trying to claw his way out of yet another sports team. As a biophysicist, Carl’s approach to racing is not to practice, but to calculate. The night before, Carl measures every curve and catalogues every condition of the track to determine the precise force and angle needed for each kick. By exerting only the necessary newtons, Carl saves his strength for the after-party, where the real Aloha Nordic champion is chosen.',
   'egan': 'Big waves, big mountains, big sweet tooth – Egan isn’t one known for doing things halfway. A former college swimmer, he has been known to hold his breath while skiing V1 uphill because you know, why not? During those rare moments when he’s not rollerskiing Old La Honda, he can be found in his day job – designing satellites that go into space. He’s the creator of those sexy team onesies, and if history holds true, we can count on him to be the first team member with an Aloha Nordic tattoo.',
@@ -38,5 +49,9 @@ var descriptions = {
 }
 
 var results = {
-  'auburn-jan-16': 'Miles – 29:05 – 13th place;Tom – 31:54 – 25th place;Sergey – 31:55 – 26th place'
+  'auburn-jan-16': [
+  	'Miles – 29:05 – 13th place,
+  	'Tom – 31:54 – 25th place',
+  	'Sergey – 31:55 – 26th place'
+  ],
 }
