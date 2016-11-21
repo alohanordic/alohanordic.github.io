@@ -77,14 +77,20 @@
   max-width: 600px;
 }
 
+.description-title {
+  font-weight: 400;
+  font-size: 20px;
+  padding-bottom: 4px;
+}
+
 @media (min-width: 900px) {
   #description {
     padding: 50px;
     font-size: 22px;
     line-height: 1.5em;
   }
-}
-
-.description-title {
-  font-weight: 400;
+  
+  .description-title {
+    font-size: 24px;
+  }
 }
