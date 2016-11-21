@@ -78,3 +78,11 @@
   background-color: #fff;
   max-width: 600px;
 }
+
+@media (min-width: 900px) {
+  #description {
+    padding: 50px;
+    font-size: 22px;
+    line-height: 1.5em;
+  }
+}
