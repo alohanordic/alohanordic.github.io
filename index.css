@@ -65,6 +65,14 @@ body {
   }
 }
 
+.home-page.header {
+  padding-bottom: 12px;
+}
+
+.home-page .menu {
+  padding-bottom: 8px;
+}
+
 .menu-item {
   display: inline-block;
   color: #fff;

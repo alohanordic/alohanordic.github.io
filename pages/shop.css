@@ -21,7 +21,7 @@ img {
 
 @media (min-width: 900px), (orientation: portrait) {
   .text {
-    margin: 50px;
+    margin: 30px;
     line-height: 1.6em;
     font-size: 16px;
   }
