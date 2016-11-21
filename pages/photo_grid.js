@@ -3,17 +3,17 @@
  * @param {event} event The click event.
  */
 function onPhotoClick(event) {
-  if (!(bios[id] || results[id])) {
-    return;
-  }
-  document.getElementById('overlay').classList.toggle('hidden', false);
   var parent = event.currentTarget;
   var id = parent.id;
   var bio = bios[id];
+  var result = results[id];
+  if (!(bio || result)) {
+    return;
+  }
+  document.getElementById('overlay').classList.toggle('hidden', false);
   if (bio) {
     document.getElementById('description').textContent = bio;
   } else {
-    var result = results[id];
     var title = result['title'];
     var times = result['times'];
     var el = document.getElementById('description');
