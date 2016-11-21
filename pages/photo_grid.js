@@ -3,6 +3,9 @@
  * @param {event} event The click event.
  */
 function onPhotoClick(event) {
+  if !(bios[id] || results[id]) {
+    return;
+  }
   document.getElementById('overlay').classList.toggle('hidden', false);
   var parent = event.currentTarget;
   var id = parent.id;
