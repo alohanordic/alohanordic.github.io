@@ -12,7 +12,7 @@ function onPhotoClick(event) {
   } else {
     var times = results[id];
     var el = document.getElementById('description');
-    el.appendChild(document.createTextNode(times[0]);
+    el.appendChild(document.createTextNode(times[0]));
     for (var i = 1; i < times.length; i++) {
       el.appendChild(document.createElement('br');
       el.appendChild(document.createTextNode(times[i]);
