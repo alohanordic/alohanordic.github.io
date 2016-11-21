@@ -31,13 +31,7 @@ body {
 
 /* Needs to be an ID to override classes in other files*/
 #first-item {
-  padding-top: 52px;
-}
-
-@media (max-width: 500px) {
-  .first-item {
-    padding-top: 70px;
-  }
+  padding-top: 70px;
 }
 
 .selected {
@@ -50,8 +44,24 @@ body {
 }
 
 @media (max-width: 500px) {
+  .menu {
+    padding: 12px;
+  }
+  
+  .menu-section:first-of-type {
+    padding-bottom: 8px;
+  }
+  
+  .menu-section:last-of-type {
+    padding-top: 8px;
+  }
+
   .menu-section {
     width: 100%;
+  }
+  
+  #first-item {
+    padding-top: 86px;
   }
 }
 
