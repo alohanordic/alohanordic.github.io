@@ -20,5 +20,6 @@ function onOverlayClick(event) {
 }
 
 var descriptions = {
-  'allison': 'Description of Allison'
+  'allison': 'Description of Allison',
+  'miles': 'Description of Miles',
 }

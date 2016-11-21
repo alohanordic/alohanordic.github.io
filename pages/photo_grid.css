@@ -19,6 +19,7 @@
   display: inline-block;
   padding: 4px;
   box-sizing: border-box;
+  position: relative;
 }
 
 @media (min-width: 600px) {
@@ -31,10 +32,6 @@
   .photo-container {
     width: 16%;
   }
-}
-
-.image-wrapper {
-  position: relative;
 }
 
 .photo-container img {
