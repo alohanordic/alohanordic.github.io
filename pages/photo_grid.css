@@ -22,6 +22,10 @@
   position: relative;
 }
 
+.photo-container:hover {
+ cursor:pointer;
+}
+
 @media (min-width: 600px) {
   .photo-container {
     width: 24%;
