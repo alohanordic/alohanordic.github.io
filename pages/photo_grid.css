@@ -84,3 +84,7 @@
     line-height: 1.5em;
   }
 }
+
+.description-title {
+  font-weight: 400;
+}

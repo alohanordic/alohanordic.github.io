@@ -10,10 +10,14 @@ function onPhotoClick(event) {
   if (bio) {
     document.getElementById('description').textContent = bio;
   } else {
-    var times = results[id];
+    var result = results[id];
+    var title = result['title'];
+    var times = result['times'];
     var el = document.getElementById('description');
-    el.appendChild(document.createTextNode(times[0]));
-    for (var i = 1; i < times.length; i++) {
+    var titleEl = document.createTextNode(title);
+    titleEl.classList.toggle('description-title', true);
+    el.appendChild(titleEl);
+    for (var i = 0; i < times.length; i++) {
       el.appendChild(document.createElement('br'));
       el.appendChild(document.createTextNode(times[i]));
     }
@@ -49,48 +53,71 @@ var bios = {
 }
 
 var results = {
-  'auburn-jan-16': [
-  	'Miles – 29:05 – 13th place',
-  	'Tom – 31:54 – 25th place',
-  	'Sergey – 31:55 – 26th place'
-  ],
-  'skio-jan-16': [
-  	'Leslie – Advanced Long Blue Course – 95:18 – 11th place'
-  ],
-  'tahoe-rim-16': [
-	'Miles – 1:32:01 – 4th place',
-	'Tom – 1:39:19 – 10th place',
-	'Sergey – 1:43:33 – 13th place',
-	'Leslie – 2:09:44 – 49th place; 13th female',
-	'Allison – 2:35:52 – 71st place; 30th female',
-	'Megan – 2:43:16 – 74th place; 31st female',
-	'Caryn – 3:20:33 – 52nd place; 16th female (Classic)',
-	'Fannie – 3:23:49 – 54th place; 17th female (Classic)'
-  ],
-  'presidents-16': [
-  	'Miles – 45:57 – 9th place',
-	'Mike – 47:48 – 14th place'
-  ],
-  'skio-feb-16': [
-  	'Laura – Orange Course – 49:52 – 1st place',
-	'Leslie & Rachel – Green Course – 1:55:58 – 3rd place',
-	'Egan – Blue Course – 1:30:09 – 7th place'
-  ],
-  'great-ski-race-16': [
-  	'Mike Sooder – 1:44:22 – 16th place',
-	'Miles – 1:50:06 – 25th place',
-	'Tom – 1:50:32 – 30th place',
-	'Egan – 1:54:30 – 36th place',
-	'Sergey – 2:06:51 – 69th place',
-	'Laura – 2:31:30 – 152nd place',
-	'Fink – 3:17:19 – 271st place',
-	'Diederik – 3:31:52 – 298th place',
-	'Matt (classics) – 3:40:13 – 307th place',
-	'Kelly + Leo – 3:46:06 – 317th place'
-  ],
-  'golden-gate-16': [
-  	'Tom - 1:28:08',
-  	'Kalina - 1:51:11',
-  	'Megan - 1:58:33'
-  ]
+  'auburn-jan-16': {
+  	'title': 'Paco\'s Fun Freestyle 10k',
+  	'times': [
+		'Sooder - 28:41 - 13th place',
+		'Miles – 29:11 – 15th place',
+		'Tom – 31:54 – 28th place',
+		'Sergey – 31:55 – 29th place'
+	]
+  },
+  'skio-jan-16': {
+  	'title': 'Sierra Ski-O Round 1',
+  	'times': [
+  	    'Leslie – Advanced Long Blue Course – 95:18 – 11th place'
+    ]
+  },
+  'tahoe-rim-16': {
+    'title': 'Tahoe Rim Tour 26k',
+    'times':  [
+		'Sooder - 1:29 - 2nd place',
+		'Miles – 1:32:01 – 4th place',
+		'Tom – 1:39:19 – 10th place',
+		'Sergey – 1:43:33 – 13th place',
+		'Leslie – 2:09:44 – 49th place; 13th female',
+		'Allison – 2:35:52 – 71st place; 30th female',
+		'Megan – 2:43:16 – 74th place; 31st female',
+		'Caryn – 3:20:33 – 52nd place; 16th female (Classic)',
+		'Fannie – 3:23:49 – 54th place; 17th female (Classic)'
+	]
+  },
+  'presidents-16': {
+    'title': 'President\'s Cup 15k',
+    'times': [
+		'Miles – 45:57 – 9th place',
+		'Mike – 47:48 – 14th place'
+	]
+  },
+  'skio-feb-16': {
+    'title': 'Sierra Ski-O Round 2',
+    'times': [
+		'Laura – Orange Course – 49:52 – 1st place',
+		'Leslie & Rachel – Green Course – 1:55:58 – 3rd place',
+		'Egan – Blue Course – 1:30:09 – 7th place'
+    ]
+  },
+  'great-ski-race-16': {
+    'title': 'The Great Ski Race 30k',
+    'times': [
+		'Mike Sooder – 1:44:22 – 16th place',
+		'Miles – 1:50:06 – 25th place',
+		'Tom – 1:50:32 – 30th place',
+		'Egan – 1:54:30 – 36th place',
+		'Sergey – 2:06:51 – 69th place',
+		'Laura – 2:31:30 – 152nd place',
+		'Fink – 3:17:19 – 271st place',
+		'Diederik – 3:31:52 – 298th place',
+		'Matt (classics) – 3:40:13 – 307th place',
+		'Kelly + Leo – 3:46:06 – 317th place'
+    ]
+  },
+  'golden-gate-16': {
+    'title': 'Golden Gate Half Marathon Run',
+    'times': [
+		'Tom - 1:28:08',
+		'Kalina - 1:51:11',
+		'Megan - 1:58:33'
+	]
+  }
 }
