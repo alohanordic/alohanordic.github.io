@@ -50,12 +50,29 @@
 }
 
 #overlay {
-  display: none;
-  position: absolute;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-align: center
+  -webkit-align-items: center;
+  align-items: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+   
+  position: fixed;
   top: 0;
   left: 0;
   width: 100vw;
   height: 100vh;
   background-color: rgba(0,0,0,0.7);
   z-index: 1;
+}
+
+#overlay.hidden {
+  display: none;
+}
+
+#description {
+  padding: 20px;
 }
