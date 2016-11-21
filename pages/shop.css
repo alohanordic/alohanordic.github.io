@@ -14,15 +14,9 @@ img {
 }
 
 .text {
-  padding: 40px 12px 8px 12px;
+  padding: 8px 12px;
   font-size: 13px;
   word-break: break-word;
-}
-
-@media (max-width: 500px) {
-  .text {
-    padding-top: 58px;
-  }
 }
 
 @media (min-width: 900px), (orientation: portrait) {

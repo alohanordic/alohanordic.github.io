@@ -9,7 +9,6 @@ body {
   position: fixed;
   top: 0;
   text-align: center;
-  padding: 8px 12px 12px 12px;
   box-sizing: border-box;
   width: 100%;
   background-color:rgba(0,0,0,0.4);
@@ -26,8 +25,18 @@ body {
 }
 
 .menu {
-  padding-bottom: 8px;
+  padding: 20px 12px;
   box-sizing: border-box;
+}
+
+.first-item {
+  padding-top: 52px;
+}
+
+@media (max-width: 500px) {
+  .first-item {
+    padding-top: 70px;
+  }
 }
 
 .selected {

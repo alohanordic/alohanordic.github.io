@@ -11,16 +11,6 @@
   box-sizing: border-box;
 }
 
-.link:first-of-type {
-  padding-top: 44px;
-}
-
-@media (max-width: 500px) {
-  .link:first-of-type {
-    padding-top: 60px;
-  }
-}
-
 img {
   width: 100%;
   padding-right: 8px;

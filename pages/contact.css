@@ -2,22 +2,15 @@
   z-index: 2;
   background-color: #444;
   height: auto;
-  padding: 8px 12px;
 }
 
 .text {
   text-align: start;
-  padding: 40px 12px 8px 12px;
+  padding: 8px 12px;
   color: #000;
   font-size: 13px;
   position: relative;
   z-index: 1;
-}
-
-@media (max-width: 500px) {
-  .text {
-    padding-top: 58px;
-  }
 }
 
 @media (min-width: 900px) {

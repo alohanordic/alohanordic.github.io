@@ -4,14 +4,8 @@
 }
 
 .content {
-  padding: 40px 12px 12px 12px;
+  padding: 12px;
   text-align: center;
-}
-
-@media (max-width: 500px) {
-  .content {
-    padding-top: 58px;
-  }
 }
 
 .photo-container {
