@@ -50,7 +50,7 @@ var bios = {
 
 var results = {
   'auburn-jan-16': [
-  	'Miles – 29:05 – 13th place,
+  	'Miles – 29:05 – 13th place',
   	'Tom – 31:54 – 25th place',
   	'Sergey – 31:55 – 26th place'
   ]
