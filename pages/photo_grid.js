@@ -14,10 +14,12 @@ function onPhotoClick(event) {
     var title = result['title'];
     var times = result['times'];
     var el = document.getElementById('description');
-    var titleEl = document.createTextNode(title);
+    var titleEl = document.createElement('div');
+    titleEl.appendChild(document.createTextNode(title));
     titleEl.classList.toggle('description-title', true);
     el.appendChild(titleEl);
-    for (var i = 0; i < times.length; i++) {
+    el.appendChild(document.createTextNode(times[0]));
+    for (var i = 1; i < times.length; i++) {
       el.appendChild(document.createElement('br'));
       el.appendChild(document.createTextNode(times[i]));
     }
