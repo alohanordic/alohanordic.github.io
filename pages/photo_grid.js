@@ -14,8 +14,8 @@ function onPhotoClick(event) {
     var el = document.getElementById('description');
     el.appendChild(document.createTextNode(times[0]));
     for (var i = 1; i < times.length; i++) {
-      el.appendChild(document.createElement('br');
-      el.appendChild(document.createTextNode(times[i]);
+      el.appendChild(document.createElement('br'));
+      el.appendChild(document.createTextNode(times[i]));
     }
   }
 }
@@ -53,5 +53,5 @@ var results = {
   	'Miles – 29:05 – 13th place,
   	'Tom – 31:54 – 25th place',
   	'Sergey – 31:55 – 26th place'
-  ],
+  ]
 }
