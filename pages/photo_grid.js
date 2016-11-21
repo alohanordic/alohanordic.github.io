@@ -3,7 +3,7 @@
  * @param {event} event The click event.
  */
 function onPhotoClick(event) {
-  if !(bios[id] || results[id]) {
+  if (!(bios[id] || results[id])) {
     return;
   }
   document.getElementById('overlay').classList.toggle('hidden', false);
