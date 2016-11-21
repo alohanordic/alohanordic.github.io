@@ -52,12 +52,6 @@
   font-size: 24px;
 }
 
-.description {
-  display: none;
-  z-index: 2;
-  padding: 20px;
-}
-
 #overlay {
   display: none;
   position: absolute;
