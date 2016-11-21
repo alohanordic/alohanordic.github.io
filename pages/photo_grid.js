@@ -6,8 +6,11 @@ function onPhotoClick(event) {
   document.getElementById('overlay').classList.toggle('hidden', false);
   var parent = event.currentTarget;
   var id = parent.id;
-  var description = descriptions[id];
-  document.getElementById('description').textContent = description;
+  var text = descriptions[id];
+  if (!text) {
+    text = results[id];
+  }
+  document.getElementById('description').textContent = text;
 }
 
 /**
@@ -32,4 +35,8 @@ var descriptions = {
   'tom': 'Most famous for his romantic plights, Tom is known as the “emotional thrill seeker” of the group. He skis fast and never falls… except in the amorous sense. Once in a cozy irish pub, over countless White Russians and Gin Creamies, he lectured a group of innocent bystanders deep into the night on the toxic repercussions of internet dating in modern society. They laughed, they cried, and at the end they all joined Aloha Nordic. He’s the Elmer’s glue stick to your scrapbook, the vitamin D to your cold and flu season, the milk snort to your laugh… and just one of the single stallions you will meet on this amazing ski team.',
   'sergey': 'Was a chance encounter with the Aloha Nordic team over New Years weekend the best or worst thing that could have happened to Sergey? Only time will tell. Sergey brings a unique, cutting-edge, European-style training strategy to the team. For example, to rest and recharge one day prior to the race, he likes to ski 4.5X the race distance at a brisk pace with unwaxed skis, no poles, and a weight vest. Since he resides in Santa Barbara he is exploring carbon offset options in order to make his commutes to Bay Area workouts good for the team AND the environment! Isn’t that great?',
   'wheeler': 'An ominous master in the art of persuasion, Wheeler once convinced three grown men to buy camper vans just so he could have company rebuilding his own. This psychological superiority pays dividends on any race day — non #AlohaNordic competitors beware the innocent pre-race chit-chat as he pumps you for knowledge and whittles down your confidence. An undergraduate experience spent more on skis at CU Boulder than in the classroom, his devotion to snow sports is world renown and his love of a good wax job legendary (and we’re not talking about the skis!).'
+}
+
+var results = {
+  'auburn-jan-16': 'Miles – 29:05 – 13th place;Tom – 31:54 – 25th place;Sergey – 31:55 – 26th place'
 }

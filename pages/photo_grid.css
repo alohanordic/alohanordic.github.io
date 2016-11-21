@@ -75,4 +75,6 @@
 
 #description {
   padding: 20px;
+  background-color: #fff;
+  max-width: 600px;
 }
