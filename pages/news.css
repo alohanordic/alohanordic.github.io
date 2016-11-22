@@ -11,6 +11,10 @@
   box-sizing: border-box;
 }
 
+.link:last-of-type {
+  padding-bottom: 8px;
+}
+
 img {
   width: 100%;
   padding-right: 8px;
