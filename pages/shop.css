@@ -19,11 +19,16 @@ img {
   word-break: break-word;
 }
 
+@media (orientation: portrait) {
+  .text {
+    line-height: 1.6em;
+    font-size: 16px;
+  }  
+}
+
 @media (min-width: 900px), (min-width: 600px) and (orientation: portrait) {
   .text {
     margin: 30px;
-    line-height: 1.6em;
-    font-size: 16px;
   }
 }
 
