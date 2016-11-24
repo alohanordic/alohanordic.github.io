@@ -4,6 +4,7 @@ body {
 
 .menu {
   z-index: 1;
+  background-color: rgb(48,106,128);
 }
 
 img {
@@ -13,21 +14,28 @@ img {
   right: 0;
 }
 
+.category {
+  font-size: 17px;
+}
+
 .text {
-  padding: 8px 12px;
+  padding-bottom: 12px;
   font-size: 13px;
-  word-break: break-word;
+}
+
+.text-container {
+  padding: 0 12px;
+  box-sizing: border-box;
 }
 
 @media (orientation: portrait) {
   .text {
     line-height: 1.6em;
-    font-size: 16px;
   }  
 }
 
 @media (min-width: 900px), (min-width: 600px) and (orientation: portrait) {
-  .text {
+  .text-container {
     margin: 30px;
   }
 }
@@ -36,11 +44,16 @@ img {
   img {
     max-width: 33%;
   }
+  
+  .text {
+    font-size: 16px;
+  }
 }
 
-@media (max-width: 900px) and (orientation: landscape) {
-  .text {
+@media (orientation: landscape) and (max-width: 900px), (orientation: landscape) and (max-height: 600px) {
+  .text-container {
     width: 50%;
+    padding-right: 0;
   }
 }
 
