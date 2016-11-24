@@ -3,28 +3,73 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
   <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="https://alohanordic.github.io/index.css">
   <link rel="shortcut icon" href="../images/favicon.ico" />
   <script src="photo_grid.js"></script>
-  <title>Results - Aloha Nordic</title>
+  <title>Oops - Aloha Nordic</title>
+  <style>
+    .menu {
+      background-color:rgba(0,0,0,0.6);
+    }
+    
+    .message-wrapper {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      display: -ms-flexbox;
+	  display: -webkit-flex;
+	  display: flex;
+	  -ms-flex-align: center
+	  -webkit-align-items: center;
+	  align-items: center;
+	  -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+	  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+    
+    .message {
+      width: 100%;
+      text-align: center;
+      font-size: 32px;
+      color: #fff;
+    }
+    
+    .suggestion {
+      color: white;
+      border: 1px solid #fff;
+      margin-top: 20px;
+      font-size: 18px;
+      padding: 4px 8px;
+      text-decoration: none;
+    }
+  </style>
 </head>
 <body>
-<div class="menu header">
-  <div class="menu-section">
-	<a class="menu-item" href="/index.html">Home</a>
-	<a class="menu-item" href="/pages/about.html">About</a>
-	<a class="menu-item" href="/pages/team.html">Team</a>
-	<a class="menu-item" href="/pages/results.html">Results</a>
-  </div>
-  <div class="menu-section">
-	<a class="menu-item" href="/pages/calendar.html">Calendar</a>
-	<a class="menu-item" href="/pages/news.html">News</a>
-	<a class="menu-item" href="/pages/shop.html">Shop</a>
-	<a class="menu-item" href="/pages/contact.html">Contact</a>
-  </div>
+<div class="fixed-content header">
+	<div class="menu">
+	  <div class="menu-section">
+		<a class="menu-item" href="/index.html">Home</a>
+		<a class="menu-item" href="/pages/about.html">About</a>
+		<a class="menu-item" href="/pages/team.html">Team</a>
+		<a class="menu-item" href="/pages/results.html">Results</a>
+	  </div>
+	  <div class="menu-section">
+		<a class="menu-item" href="/pages/calendar.html">Calendar</a>
+		<a class="menu-item" href="/pages/news.html">News</a>
+		<a class="menu-item" href="/pages/shop.html">Shop</a>
+		<a class="menu-item" href="/pages/contact.html">Contact</a>
+	  </div>
+	</div>
 </div>
-<div id="first-item" class="content">
-Oops!  Looks like this page doesn't exist.
+<div class="hero-image" style="background-image:url('https://alohanordic.github.io/images/oops.jpg')"></div>
+<div class="message-wrapper">
+	<div class="message">Oops!  Looks like you've stumbled on a page that doesn't exist.</div>
+	<a href="https://alohanordic.github.io" class="suggestion">Go back to the homepage</a>
 </div>
 </body>
 </html>
