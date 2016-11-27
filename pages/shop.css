@@ -4,7 +4,7 @@ body {
 
 .menu {
   z-index: 1;
-  background-color: rgb(48,106,128);
+  background-color: rgba(0,0,0,0.7);
 }
 
 img {
