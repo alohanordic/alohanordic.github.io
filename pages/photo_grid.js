@@ -59,7 +59,7 @@ var bios = {
 
 var results = {
   'auburn-jan-16': {
-  	'title': 'Paco\'s Fun Freestyle 10k',
+  	'title': 'Paco\'s Fun Freestyle 10k - 2016',
   	'times': [
 		'Sooder - 28:41 - 13th place',
 		'Miles – 29:11 – 15th place',
@@ -123,6 +123,23 @@ var results = {
 		'Tom - 1:28:08',
 		'Kalina - 1:51:11',
 		'Megan - 1:58:33'
+	]
+  },
+  'pacos-jan-17': {
+  	'title': 'Paco\'s Fun Freestyle 10k - 2017',
+  	'times': [
+		'Miles - 24:42 - 9th place',
+		'Sooder - 25:09 - 15th place',
+		'Egan - 25:19 - 16th place',
+		'Tom - 26:45 - 19th place',
+		'Wheeler - 27:41 - 24th place',
+		'Birkie Joe - 27:54 - 25th place',
+		'Sergey - 28:51 - 29th place',
+		'Shwe - 30:50 - 36th place',
+		'Leslie - 37:01 - 43rd place (4th female)',
+		'Fannie - 40:04 - 47th place (6th female)',
+		'Erin - 42:09 - 48th place (7th female)',
+		'Evan - 43:32 - 50th place'
 	]
   }
 }
