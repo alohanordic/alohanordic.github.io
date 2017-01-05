@@ -121,6 +121,12 @@ var results = {
 		'Kelly + Leo – 3:46:06 – 317th place'
     ]
   },
+  'napa-triathlon-16': {
+    'title': 'HITS Napa Half Ironman Triathlon Relay',
+    'times': [
+        'Leslie, Megan, and Allison - 5:51:44'
+    ]
+  },
   'golden-gate-16': {
     'title': 'Golden Gate Half Marathon Run',
     'times': [
