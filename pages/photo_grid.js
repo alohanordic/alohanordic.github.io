@@ -151,5 +151,24 @@ var results = {
 		'Erin - 42:09 - 48th place (7th female)',
 		'Evan - 43:32 - 50th place'
 	]
+  },
+  'tahoe-rim-jan-17': {
+    'title': 'Tahoe Rim Tour 26k - 2017',
+    'times': [
+    	'Birkie Joe - 1:28:27 - 5th place',
+	'Miles - 1:29:19 - 6th place',
+	'Egan - 1:33:20 - 8th place',
+	'Tom - 1:33:40 - 9th place',
+	'Peter - 1:41:30 - 17th place',
+	'Shwe - 1:49:57 - 25th place',
+	'Sooder - 1:56:54 - 35th place',
+	'Allison - 2:09:25 - 48th place (18th female)',
+	'Leslie - 2:14:36 - 53rd place (21st female)',
+	'Maddie - 2:23:56 - 67th place (27th female)',
+	'William Zachary - 2:30:18 - 69th place',
+	'Fannie - 2:32:47 - 70th place (28th female)',
+	'Caryn - 2:35:33 - 72nd place (30th female)',
+	'Tex - 2:36:50 - 73rd place (31st female)'
+    ]
   }
 }
