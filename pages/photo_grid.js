@@ -171,5 +171,12 @@ var results = {
 	'Caryn - 2:35:33 - 72nd place (30th female)',
 	'Tex - 2:36:50 - 73rd place (31st female)'
     ]
+  },
+  'boulder-tour': {
+    'title': 'Boulder Mountain Tour 34k - 2017',
+    'times': [
+    	'Birkie Joe - 1:56:00 - 76th place',
+	'Egan - 1:58:36 - 89th place'
+    ]
   }
 }
