@@ -17,7 +17,8 @@
 }
 
 .photo-container:hover {
- cursor:pointer;
+ cursor: pointer;
+ opacity: 0.6;
 }
 
 @media (min-width: 600px) {
