@@ -216,7 +216,7 @@ var results = {
     'title': 'Gold Rush 15, 30, and 45k',
     'times': [
     	'(15k) Miles - 45:32 - 1st place',
-    	'(30k) Egan - 1:41 - 2nd place',
+    	'(30k) Egan - 1:41:35 - 2nd place',
     	'(30k) Peter - 1:41:56 - 3rd place',
     	'(30k) Bronwen - 1:47:14 - 1st place (female)',
     	'(30k) William Zachary - 2:29:23 - 18th place',
