@@ -235,5 +235,25 @@ var results = {
         'Bronwen and Lizzy - 2:47:06 - 3rd Female Pair (30-34)',
         'Leslie and Shaner - 2:47:35 - 3rd Female Pair (25-29)'
     ]
+  },
+  'birkie-18': {
+    'title': 'American Birkebeiner 50k - 2018',
+    'times': [
+        'Nick - 2:40:47 (Wave 1)',
+        'Miles - 2:41:14 (Wave 1)',
+        'Joe - 2:43:22 (Wave 1)',
+        'Egan - 2:59:31 (Wave 1)',
+        'Bronwen - 3:15:23 (Wave 6)',
+        'Allison - 4:07:40 (Wave 7)',
+        'Leslie - 4:11:13 (Wave 7)'
+    ]
+  },
+  'alpenglow-18': {
+    'title': 'Alpenglow 20k - 2018',
+    'times': [
+        'Sooder - 1:12:34 - 5th place',
+        'Bronwen - 1:26:24 - 17th place (3rd female)',
+        'Leslie - 1:43:21 - 35th place (7th female)'
+    ]
   }
 }
