@@ -211,7 +211,7 @@ var results = {
     ]
   },
   'gold-rush-17': {
-    'title': 'Gold Rush 15, 30, and 45k',
+    'title': '2017 Gold Rush 15, 30, and 45k',
     'times': [
     	'(15k) Miles - 45:32 - 1st place',
     	'(30k) Egan - 1:41:35 - 2nd place',
@@ -254,6 +254,21 @@ var results = {
         'Sooder - 1:12:34 - 5th place',
         'Bronwen - 1:26:24 - 17th place (3rd female)',
         'Leslie - 1:43:21 - 35th place (7th female)'
+    ]
+  },
+  'gold-rush-18': {
+    'title': '2018 Gold Rush 15, 30, and 45k',
+    'times': [
+        '(15k) Egan - 58:51 - 2nd place',
+        '(15k) Bronwen - 1:05:28 - 6th place (female)',
+        '(15k) Mike - 1:16:25 - 11th place',
+        '(15k) Caryn - 1:30:17 - 9th place (female)',
+        '(15k) Kalina - 1:35:55 - 11th place (female)',
+        '(15k) Fannie - 1:36:23 - 12th place (female)',
+        '(30k) Leslie - 2:39:43 - 6th place (female)',
+        '(30k) Allison - 2:46:48 - 7th place (female)',
+        '(30k) William Zachary - 3:37:04 - 14th place',
+        '(45k) Chris - 2:47:37 - 11th place'
     ]
   }
 }
