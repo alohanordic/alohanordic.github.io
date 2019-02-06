@@ -270,5 +270,19 @@ var results = {
         '(30k) William Zachary - 3:37:04 - 14th place',
         '(45k) Chris - 2:47:37 - 11th place'
     ]
+  },
+  'tahoe-rim-19': {
+    'title': 'Tahoe Rim Tour 26k - 2019',
+    'times': [
+        'Sooder - 1:25:35 - 2nd male',
+        'Birkie Joe - 1:27:54 - 4th male',
+        'Miles - 1:34:22 - 7th male',
+        'Wheeler - 1:37:02 - 15th male',
+        'Allison - 1:54:51 - 17th female',
+        'Leslie - 1:57:50 - 21st female',
+        'Fannie - 2:11:14 - 32nd female',
+        'Kalina - 2:13:17 - 36th female',
+        'Jenn - 2:48:05 - 43rd female'
+    ]
   }
 }
