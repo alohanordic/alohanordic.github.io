@@ -24,34 +24,44 @@
 @media (min-width: 600px) {
   .photo-container {
     width: 24%;
+    padding-top: 24%;
   }
 }
 
 @media (min-width: 800px) {
   .photo-container {
     width: 19%;
+    padding-top: 19%;
   }
 }
 
 @media (min-width: 1300px) {
   .photo-container {
     width: 14%;
+    padding-top: 14%;
   }
 }
 
-
-.photo-container img {
-  width: 100%;
+.photo-grid-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(256,256,256,0.4);
 }
 
-.name {
+.photo-container .name {
   position: absolute;
-  bottom: 6px;
-  left: 4px;
-  right: 4px;
+  bottom: 0;
+  left: 0;
+  right: 0;
   padding: 4px;
   color: #fff;
-  background-color: rgba(0,0,0,0.5);
+  background-color: rgba(0,0,0,0.7);
   font-size: 24px;
 }
 
