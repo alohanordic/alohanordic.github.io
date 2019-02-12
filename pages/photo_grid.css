@@ -10,9 +10,8 @@
 
 .photo-container {
   width: 49%;
-  padding-top: 49%;
+  padding: 49% 4px 4px 4px;
   display: inline-block;
-  padding: 4px;
   box-sizing: border-box;
   position: relative;
 }
