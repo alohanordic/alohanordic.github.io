@@ -301,5 +301,11 @@ var results = {
 	'Cody - 4:34:04 (Wave 8)',
 	'Fannie - 4:44:25 (Wave 8)'
     ]
+  },
+  'giant-ski-19': {
+    'title': 'Birkie Giant Ski - 2019',
+    'times': [
+    	'Allison, Fannie, Leslie, Kalina, Caryn, and Cody - 1:08'
+    ]
   }
 }
