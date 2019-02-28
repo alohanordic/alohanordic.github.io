@@ -284,5 +284,22 @@ var results = {
         'Kalina - 2:13:17 - 36th female',
         'Jenn - 2:48:05 - 43rd female'
     ]
+  },
+  'birkie-19': {
+    'title': 'American Birkebeiner 50k - 2019',
+    'times': [
+        'Birkie Joe - 2:52:05 (Wave 1)',
+        'Nick - 2:53:02 (Wave 1)',
+        'Miles - 3:22:00 (Wave 1)',
+        'Wheeler - 3:42:41 (Wave 8)',
+        'Leslie - 4:04:19 (Wave 6)',
+        'Allison - 4:04:41 (Wave 6)',
+        'Shaner - 4:05:05 (Wave 8)',
+        'Mike - 4:07:54 (Wave 8)',
+        'Kalina - 4:31:01 (Wave 8)',
+	'Fannie - 4:33:14 (Wave 8)',
+	'Cody - 4:34:04 (Wave 8)',
+	'Fannie - 4:44:25 (Wave 8)'
+    ]
   }
 }
