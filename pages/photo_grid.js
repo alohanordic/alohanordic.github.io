@@ -305,7 +305,7 @@ var results = {
   'giant-ski-19': {
     'title': 'Birkie Giant Ski - 2019',
     'times': [
-    	'Allison, Fannie, Leslie, Kalina, Caryn, and Cody - 1:08'
+    	'Allison, Fannie, Leslie, Kalina, Caryn, and Cody - 1:08 (5th place)'
     ]
   }
 }
