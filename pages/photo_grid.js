@@ -297,9 +297,13 @@ var results = {
         'Shaner - 4:05:05 (Wave 8)',
         'Mike - 4:07:54 (Wave 8)',
         'Kalina - 4:31:01 (Wave 8)',
+	'Egil - 4:31:36 (Wvae 8)',
 	'Fannie - 4:33:14 (Wave 8)',
 	'Cody - 4:34:04 (Wave 8)',
-	'Fannie - 4:44:25 (Wave 8)'
+	'Fannie - 4:44:25 (Wave 8)',
+	'Lars - 4:44:54 (Wave 8)',
+	'Robbie - 2:00:19 (29k Korte)',
+	'Adrienne - 2:58:46 (29k Korte)'
     ]
   },
   'giant-ski-19': {
