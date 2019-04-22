@@ -311,5 +311,36 @@ var results = {
     'times': [
     	'Allison, Fannie, Leslie, Kalina, Caryn, and Cody - 1:08 (5th place)'
     ]
-  }
+  },
+  'skogsloppet-19': {
+    'title': 'Skogsloppet 15k - 2019',
+    'times': [
+        'Sooder - 45:49',
+        'Mike - 1:03:00'
+    ]
+  },
+  'rg-classic-19': {
+    'title': 'RG Classic - 2019',
+    'times': [
+        '(5k) Leslie - 30:26',
+        '(5k) Rachel - 31:35',
+        '(10k) Rachael - 1:11:17'
+    ]
+  },
+  'gold-rush-19': {
+    'title': 'Gold Rush 15k - 2019',
+    'times': [
+        'Mike - 57:14 - 3rd male',
+        'Leslie - 58:25 - 2nd female',
+        'Lutz - 1:25:26 - 14th male'
+    ]
+  },
+  'billy-dutton-19': {
+    'title': 'Billy Dutton Uphill - 2019',
+    'times': [
+        'Nate - 46:04 - 9th place (running)',
+        'Bronwen - 52:54 - 19th place (nordic skiing)',
+        'Leslie - 53:23 - 20th place (nordic skiing)'
+    ]
+  },
 }
