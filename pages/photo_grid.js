@@ -343,9 +343,9 @@ var results = {
   'billy-dutton-19': {
     'title': 'Billy Dutton Uphill - 2019',
     'times': [
-        'Nate - 46:04 - 9th place (running)',
-        'Bronwen - 52:54 - 19th place (nordic skiing)',
-        'Leslie - 53:23 - 20th place (nordic skiing)'
+        '(running) Nate - 46:04 - 9th place',
+        '(nordic skiing) Bronwen - 52:54 - 19th place',
+        '(nordic skiing) Leslie - 53:23 - 20th place'
     ]
   },
 }
