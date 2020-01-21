@@ -348,4 +348,18 @@ var results = {
         '(nordic skiing) Leslie - 53:23 - 20th place'
     ]
   },
+  'snowshoe-20': {
+    'title': 'Snowshoe Thompson Classic 10k - 2020',
+    'times': [
+        'Davey - 48:39 - 11th place'
+    ]
+  },
+  'pacos-20': {
+    'title': 'Paco\'s Freestyle - 2020',
+    'times': [
+        '(10k) Gabe - 39:00 - 3rd male',
+        '(15k) Peter - 47:50 - 15th male',
+        '(15k) Joe - 47:58 - 16th male'
+    ]
+  },
 }
