@@ -362,4 +362,25 @@ var results = {
         '(15k) Joe - 47:58 - 16th male'
     ]
   },
+  'tahoe-rim-20': {
+    'title': 'Tahoe Rim Tour 26k',
+    'times':  [
+        'Birkie Joe - 2:01:17 - 3rd male',
+        'Jacob - 2:02:52 - 4th male',
+        'Sooder - 2:05:55 - 6th male (classic)',
+        'Miles - 2:13:47 - 9th male',
+        'Yara - 2:15:27 - 3rd female',
+        'Davey - 2:18:06 - 12th male',
+        'Mike - 2:28:19 - 17th male',
+        'Leslie - 2:31:19 - 7th female',
+        'Gabe - 2:33:25 - 21st male',
+        'Allison - 2:34:14 - 8th female',
+        'Fannie - 2:36:28 - 11th female',
+        'Kalina - 2:45:18 - 13th female',
+        'Eliza - 3:00:11 - 4th female (classic)',
+        'Lily - 3:09:13 - 17th female',
+        'Christine - 3:28:03 - 20th female',
+        'Claire - 3:46:24 - 23rd female'
+	]
+  },
 }
