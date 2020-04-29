@@ -383,4 +383,29 @@ var results = {
         'Claire - 3:46:24 - 23rd female'
 	]
   },
+  'birkie-20': {
+    'title': 'American Birkebeiner 50k - 2020',
+    'times': [
+        'Birkie Joe - 2:25:49 (Wave 1)',
+        'Miles - 2:46:12 (Wave 1)',
+        'Yara - 2:47:54 (Wave 4)',
+        'Peter - 2:48:48 (Wave 8)',
+        'Wheeler - 2:59:25 (Wave 3)',
+        'Bronwen - 3:02:21 (Wave 3)',
+        'Mike - 3:10:16 (Wave 5)',
+        'Leslie - 3:13:17 (Wave 4)',
+        'Eliza - 3:27:51 (Wave 8)',
+        'Allison - 3:33:38 (Wave 5)',
+        'Fannie - 3:35:59 (Wave 6)',
+        'Gabe - 3:46:10 (Wave 8)',
+        'Kalina - 3:56:52 (Wave 6)',
+        'Christine - 4:43:44 (Wave 7)',
+        'Lutz - 4:56:52 (Wave 8)',
+        'Davey - 3:20:24 (55k Classic)',
+        'Eliza - 5:40:06 (55k Classic)',
+        'Steve - 5:38:39 (55k Classic)',
+        'Sara - 5:39:27 (55k Classic)', 
+        'Lily - 2:18:16 (29k Korte)'
+    ]
+  },
 }
